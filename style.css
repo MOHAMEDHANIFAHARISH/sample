@@ -171,19 +171,23 @@ left: 50PX;}
     justify-content: space-evenly;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .page2 img{
     width: 500px;
+    padding: 20px;
+    
 }
 .page1{
     width: 500px;
     text-align: center;
+    
+
 }
 .page1 p{
     color: blue;
     font-size: large;
     text-align: justify;
+    padding: 20px;
     
 }
 
@@ -193,7 +197,17 @@ left: 50PX;}
     border-radius: 7px;
 }
 
+.page2 ,.page1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    
 
+}
+.page2 h3,.page1 h3{
+    margin: 0;
+    
+
+}
 
 
 
